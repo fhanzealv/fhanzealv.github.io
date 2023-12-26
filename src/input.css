@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --mainColor: #00cba9;
+    --mainText: #1f1f1fa4;
+    --right: @apply ml-auto;
+    --secColor: rgba(225, 106, 168, 0.8);
+}
+
+@layer utilities{
+    .fhanzeKit::-webkit-scrollbar {
+        width: 3px;
+        height: 10px;
+    }
+
+    .fhanzeKit::-webkit-scrollbar-track{
+        border-radius:100vh;
+        
+        background:var(--secColor);
+    }
+
+    .fhanzeKit::-webkit-scrollbar-thumb{
+        background: var(--mainColor);
+        border-radius:100vh;
+        border: 3px solid var(--mainColor);
+    }
+
+    .fhanzeKit::-webkit-scrollbar-thumb:hover{
+        background: var(--secColor);
+    }
+}
+
+header{
+    @apply relative;
+    min-height: 100vh; 
+    margin:0;
+    display:flex; 
+    flex-direction:column;
+}
+
+
+body{
+    @apply text-[#7c7c7c];
+}
+
+section{
+    @apply bg-slate-500;
+    min-height:100vh;
+    display:flex; 
+    flex-direction:column;
+}
+
+.brand{
+    @apply pr-4;
+}
+
+.navbar--right{
+    @apply ml-auto;    
+}
+
+.nav__links a{
+    @apply px-4 text-white font-bold;
+}
+
+.f-btn{
+    @apply py-2 rounded-md text-slate-50;
+    background-color:var(--secColor);
+
+}
+
+.header{
+   background-image:url(/assets/wave-top.svg);
+    background-repeat:no-repeat;
+     @apply w-full ;
+}
+    
+    
+
+
+.navbar{
+    @apply w-full  bg-[var(--mainColor)] flex py-4 px-4 items-center relative z-50  lg:container mx-auto;
+}
+
+.toggle i{
+    color:white;
+}
+
+.wrapper{
+    flex:1; 
+    
+}
+
+.about{
+    @apply px-4 py-16 h-full shadow-lg bg-white rounded-lg lg:py-32 lg:container mx-auto relative;
+}
+
+.about__title{
+    @apply  text-4xl font-bold text-[var(--secColor)] py-3 ;
+}
+
+.about__col{
+    @apply  w-full overflow-auto max-sm:h-72 lg:h-48 flex flex-nowrap gap-5 max-lg:block max-md:h-72;
+}
+
+.about__col div:nth-child(1){
+    @apply lg:w-[63%] flex justify-center p-4 h-48 lg:border-r-2;
+}
+
+.sosmed img{
+    @apply h-full bg-center opacity-60;
+}
+
+.sosmed{
+    @apply h-[4rem] w-[13rem] p-4 border border-blue-200 rounded-md flex;
+}
+
+.sosmed p{
+    @apply my-auto ml-2;
+}
+
+.sosmed:hover{
+    @apply bg-[var(--mainColor)];
+    
+}
+
+
+
+.additionalDesc{
+    @apply lg:container mx-auto text-center;
+}
+
+.additionalDesc i{
+    color:red;
+}
+
+.aboutDesc{
+    @apply w-full ;
+    
+}
+
+.jumbotron{
+    @apply  max-lg:hidden ;
+}
+
+
+.projTitle{
+    @apply  px-4 my-14 lg:container mx-auto text-center font-bold relative;
+}
+
+.projLogo{
+    @apply  lg:container mx-auto w-full flex gap-2 p-4  self-center justify-center;
+}
+
+
+.jumboHero{
+  
+        @apply h-[100%] w-full rounded-md  ;
+    }
+
+
+/* .time{
+    font-weight:bold;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    border: 4px solid #96a8a7;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    backdrop-filter: blur(10px);
+} */

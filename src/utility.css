@@ -1,0 +1,66 @@
+
+
+@media screen and (max-width: 640px ){
+
+    .about{
+        padding-top:2rem;
+    }
+
+    .about .about__col
+    {
+        
+        margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-bottom:auto;
+    gap:1,5rem;
+   
+    }
+
+    .about__col div{
+    padding-top:2rem;
+    paddint-bottom:2rem;
+    }
+
+
+    h1,h2,h3,h4{
+        text-align:center;
+    }    
+
+
+
+    
+
+
+    .nav__links{
+            display:none;
+    }
+
+    .projLogo{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .projLogo p{
+        display:none;
+    }
+
+    .projLogo .sosmed{
+        width:auto;
+    }
+}
+
+
+
+.btn{
+    padding: 0.75rem 2rem;
+    line-height: 1;
+    border-radius: 1.875rem;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    border: #fff;
+    display: inline-block;
+    background-color: #00cba9;
+    font-weight: bold;
+}
+
+

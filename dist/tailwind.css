@@ -577,26 +577,16 @@ video {
   height: 5rem;
 }
 
-.h-\[35rem\] {
-  height: 35rem;
+.h-\[40rem\] {
+  height: 40rem;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-\[40rem\] {
-  height: 40rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.border-spacing-1 {
-  --tw-border-spacing-x: 0.25rem;
-  --tw-border-spacing-y: 0.25rem;
-  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
 .items-center {
@@ -631,6 +621,11 @@ video {
   background-color: var(--mainColor);
 }
 
+.bg-fuchsia-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(112 26 117 / var(--tw-bg-opacity));
+}
+
 .bg-slate-400\/50 {
   background-color: rgb(148 163 184 / 0.5);
 }
@@ -644,8 +639,9 @@ video {
   fill: #404040;
 }
 
-.p-4 {
-  padding: 1rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-2 {
@@ -653,38 +649,18 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
   text-align: center;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-3xl {
@@ -692,12 +668,16 @@ video {
   line-height: 2.25rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-\[var\(--secColor\)\] {
+  color: var(--secColor);
 }
 
 .text-red-400 {
@@ -708,58 +688,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[var\(--SecColor\)\] {
-  color: var(--SecColor);
-}
-
-.text-\[var\(--secColor\)\] {
-  color: var(--secColor);
-}
-
-.decoration-purple-100 {
-  text-decoration-color: #f3e8ff;
-}
-
-.decoration-white {
-  text-decoration-color: #fff;
-}
-
-.decoration-pink-500 {
-  text-decoration-color: #ec4899;
-}
-
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-white {
-  --tw-shadow-color: #fff;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.drop-shadow-sm {
-  --tw-drop-shadow: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-xl {
-  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-lg {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .fhanzeKit::-webkit-scrollbar {
@@ -1228,40 +1156,8 @@ section {
     height: 100%;
   }
 
-  .max-lg\:h-auto {
-    height: auto;
-  }
-
   .max-lg\:h-\[20rem\] {
     height: 20rem;
-  }
-
-  .max-lg\:h-\[30rem\] {
-    height: 30rem;
-  }
-
-  .max-lg\:h-\[50rem\] {
-    height: 50rem;
-  }
-
-  .max-lg\:h-\[15rem\] {
-    height: 15rem;
-  }
-
-  .max-lg\:h-\[35rem\] {
-    height: 35rem;
-  }
-
-  .max-lg\:h-\[25rem\] {
-    height: 25rem;
-  }
-
-  .max-lg\:h-\[45rem\] {
-    height: 45rem;
-  }
-
-  .max-lg\:h-full {
-    height: 100%;
   }
 
   .max-lg\:h-fit {

@@ -156,7 +156,7 @@ section{
 
 .jumboHero{
   
-        @apply h-[100%] w-full rounded-md  ;
+        @apply h-[100%] w-full rounded-md;
     }
 
 

@@ -716,7 +716,7 @@ body {
 section {
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-  min-height:100vh;
+  min-height:50vh;
   display:flex;
   flex-direction:column;
 }
@@ -1162,6 +1162,10 @@ section {
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;

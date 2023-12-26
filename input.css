@@ -33,8 +33,8 @@
 }
 
 header{
-    @apply relative;
-    min-height: 100vh; 
+    @apply relative lg:h-screen;
+    min-height: 50vh; 
     margin:0;
     display:flex; 
     flex-direction:column;

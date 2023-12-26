@@ -702,7 +702,16 @@ video {
 
 header {
   position: relative;
-  min-height: 100vh;
+}
+
+@media (min-width: 1024px) {
+  header {
+    height: 100vh;
+  }
+}
+
+header{
+  min-height: 50vh;
   margin:0;
   display:flex;
   flex-direction:column;

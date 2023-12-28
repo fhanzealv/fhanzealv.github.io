@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<header class="header lg:h-screen">
+<header class="header lg:min-h-screen " id="header">
     <div class="navbar">
         <div class="brand"><a href=""><img src="/assets/logo.png" class="rounded-lg"></a></div>
         <nav class="nav__links ">
@@ -50,7 +50,6 @@
                 </p>
             </div>
                 <div class="jumbotron">
-                                                    <!-- <img src="/assets/mockup.png" class=" absolute right-2" /> -->
 <img src="/assets/hero-3.png" class="absolute right-2  " />
                 </div>
 
@@ -93,7 +92,7 @@
           
 <section id="Project " class="bg-[var(--mainColor)] lg:h-screen">
  
-    <div class="wrapper">
+    <div class="wrapper ">
         <div class="jumboWrap flex h-[40rem] max-lg:min-h-[45rem] py-4 max-lg:block gap-3 max-md:gap-0 overflow-hidden  ">
 
             <div class="jumboHero lg:py-4 max-lg:h-[20rem] ">
@@ -108,18 +107,32 @@
                     So what you waiting for? Come hit me up! 
 
                 </p>
-                <img src="/assets/icon2.png" class="max-lg:hidden " />
+                <img src="/assets/icon2.png" class="max-lg:hidden" />
             </div>
        
        
         </div>
      
         
+        <div class="jumbobot min-h-full bg-white overflow-hidden relative">
+        
+            <img src="/assets/wave2.png" class=""  />
+          </div>
     </div>
-    <div class="jumbobot bg-white overflow-hidden ">
-    
-        <img src="/assets/wave2.png" class=""  />
-      </div>
 </section>
-       <!-- <footer class="text-center py-6 bg-slate-400/50 text-white font-semibold">Copyright 2023. fhanze. Allright reserved. Protected by DMCA </footer> -->
+<section id="catalog" class="bg-white py-9">
+    <div class="padPro max-h-60 ">
+        <div class=" mx-auto flex justify-center items-center gap-3" >
+            <a class="fhanzeBox hover:bg-slate-700" href="a">
+                <div class="z-10 text-4xl">DOWNLOAD</div>
+            </a>
+      
+
+        </div>
+    </div>
+</section>
+
+<footer class="text-center py-6  text-white font-semibold flex justify-center items-center max-sm:block bg-slate-500/70">
+    <p class="pr-1 lg:pr-2 font-bold">Copyright 2023. fhanze. Allright reserved. Protected by</p>
+         <a href="//www.dmca.com/Protection/Status.aspx?id=9ba4a7dc-6f27-407e-ac38-38d074f455f4" title="DMCA.com Protection Status" class="dmca-badge "> <img src="//images.dmca.com/Badges/dmca-badge-w100-5x1-06.png?ID=//www.dmca.com/Protection/Status.aspx?id=9ba4a7dc-6f27-407e-ac38-38d074f455f4" alt="DMCA.com Protection Status" class="mx-auto"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script> </footer>
  </html>

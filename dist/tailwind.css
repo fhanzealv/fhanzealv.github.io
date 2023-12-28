@@ -597,8 +597,12 @@ video {
   height: 100%;
 }
 
-.max-h-60 {
-  max-height: 15rem;
+.h-full {
+  height: 100%;
+}
+
+.min-h-\[50rem\] {
+  min-height: 50rem;
 }
 
 .min-h-\[50rem\] {

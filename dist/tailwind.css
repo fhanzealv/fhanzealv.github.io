@@ -630,10 +630,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-400\/50 {
-  background-color: rgb(148 163 184 / 0.5);
-}
-
 .fill-neutral-700 {
   fill: #404040;
 }
@@ -756,7 +752,7 @@ section {
 }
 
 section{
-  min-height:100vh;
+  min-height:50vh;
   display:flex;
   flex-direction:column;
 }
@@ -1268,10 +1264,6 @@ section{
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-screen {
-    height: 100vh;
-  }
-
   .lg\:min-h-screen {
     min-height: 100vh;
   }

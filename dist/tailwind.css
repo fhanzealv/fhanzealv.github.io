@@ -577,10 +577,6 @@ video {
   display: flex;
 }
 
-.h-60 {
-  height: 15rem;
-}
-
 .h-\[40rem\] {
   height: 40rem;
 }
@@ -1151,6 +1147,16 @@ section{
 
 .fhanzeBox {
   background-color: var(--mainColor);
+}
+
+@media not all and (min-width: 640px) {
+  .fhanzeBox {
+    height: 50px;
+    width: 200px;
+  }
+}
+
+.fhanzeBox{
   position:relative;
   width:300px;
   height:100px;

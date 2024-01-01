@@ -7,6 +7,36 @@
     <link href="/dist/tailwind.css" rel="stylesheet">
     <link href="utility.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <style>
+        html,
+        body {
+          position: relative;
+        }
+    
+       
+    
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
 </head>
 <body>
     <header class="header lg:min-h-screen " id="header">
@@ -86,12 +116,13 @@
                         <p>Youtube</p>
                     </a>
                 </div>
-                    
+       
+      
              </header>
                 
           
 <section id="Project " class="bg-[var(--mainColor)] -z-40">
- 
+
     <div class="wrapper ">
         <div class="jumboWrap flex h-[43rem] max-lg:min-h-[45rem] py-4 max-lg:block gap-3 max-md:gap-0 overflow-hidden  ">
 
@@ -118,25 +149,83 @@
             <img src="/assets/wave2.png" class=""  />
         </div>
     </div>
-</section>
-        
-<section id="catalog" class="bg-white py-9">
-    <div class="padPro wrapper ">
-        <div class="lg:container mx-auto flex justify-center items-center gap-3 min-h-[40rem] p-8 max-md:block bg-fuchsia-500/50 backdrop-blur-[100px] rounded-md" >
-            <div class="flex justify-center items-center w-full">
+</section> 
 
-                <span class="h-80 w-full max-md:mb-8 bg-white text-center  ">This Section is Under Construction!</span>
+
+
+  
+<!-- <section id="foot" class="bg-white py-9">
+    <h2 class="text-3xl lg:container mx-auto">More Article</h2>
+
+        <div class="slider-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="cards">
+                            <div class="image-content">
+                                <span class="overlay  "><img src="assets/pict1.jpg" class=""/></span>
+                                <div class="card-image">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-content backdrop-blur-lg bg-white/50">
+                                <h2 class="name text-3xl">David dell</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deleniti iste libero quisquam id aliquid?.</p>
+                            </div>
+                            
+                        </div> 
+                        
+
+                        <div class="cards">
+                            <div class="image-content">
+                                <span class="overlay "><img src="assets/pict1.jpg" class=""/></span>
+                                <div class="card-image">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-content backdrop-blur-lg bg-white/50">
+                                <h2 class="name text-3xl">David dell</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deleniti iste libero quisquam id aliquid?.</p>
+                            </div>
+                            
+                        </div>  
+
+                        <div class="cards">
+                            <div class="image-content">
+                                <span class="overlay "><img src="assets/pict1.jpg" class=""/></span>
+                                <div class="card-image">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-content backdrop-blur-lg bg-white/50">
+                                <h2 class="name text-3xl">David dell</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deleniti iste libero quisquam id aliquid?.</p>
+                            </div>
+                            
+                        </div>  
+
+                        
+
+
+                    </div>
+                    
+                
+                </div>
             </div>
-                <a class="fhanzeBox hover:bg-slate-700 mx-auto w-full" hrefThis Section is Under Construction!a">
-                <div class="z-10 text-4xl ">DOWNLOAD</div>
-            </a>
-      
+        </div> 
+    
+    
+   
+</section> -->
 
-        </div>
-    </div>
-</section>
-
-<footer class="text-center py-6  text-white font-semibold flex justify-center items-center max-sm:block bg-slate-500/70">
+<footer class="text-center py-6  text-slate-500 font-semibold flex justify-center items-center max-sm:block ">
     <p class="pr-1 lg:pr-2 font-bold">Copyright 2023. fhanze. Allright reserved. Protected by</p>
          <a href="//www.dmca.com/Protection/Status.aspx?id=9ba4a7dc-6f27-407e-ac38-38d074f455f4" title="DMCA.com Protection Status" class="dmca-badge "> <img src="//images.dmca.com/Badges/dmca-badge-w100-5x1-06.png?ID=//www.dmca.com/Protection/Status.aspx?id=9ba4a7dc-6f27-407e-ac38-38d074f455f4" alt="DMCA.com Protection Status" class="mx-auto"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script> </footer>
- </html>
+ 
+ 
+ 
+
+         <script src="swiper-bundle.min.js"></script>
+ </body>
+         </html>

@@ -33,8 +33,7 @@
 
 
     .nav__links{
-            display:block;
-            width:100%;
+            display:hidden;
     }
 
     .projLogo{

@@ -8,56 +8,29 @@
     <link href="utility.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="swiper-bundle.min.css" />
-    <style>
-        html,
-        body {
-          position: relative;
-        }
-    
-       
-    
-        .swiper {
-          width: 100%;
-          height: 100%;
-        }
-    
-        .swiper-slide {
-          text-align: center;
-          font-size: 18px;
-          background: #fff;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .swiper-slide img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      </style>
+    <script src="//unpkg.com/alpinejs" defer></script>
+
 </head>
 <body>
     <header class="header lg:min-h-screen " id="header">
         <div class="navbar">
             <div class="brand"><a href=""><img src="/assets/logo.png" class="rounded-lg"></a></div>
-            <nav class="nav__links ">
+            <nav class="nav__links" >
                 <a href="">Home</a>
                 <a href="#Project" >Project</a>
                 <a href="" >Service</a>
                 <a href="" >Shop</a>
             </nav>
             
-            <div class="navbar--right">
-             <nav class="nav__links">
+            <div class="navbar--right ">
+             <nav class="nav__links" id="nav__links">
                 <a href="A" class="">Login</a>
                 <a href="" class="border py-2 hover:bg-[var(--secColor)]">SignUp</a>
             </nav>
              </div>
 
-        <nav class="navbar--right toggle sm:hidden">
-            <button id="navlink" onclick="">
+        <nav class="navbar--right toggle sm:hidden" id="hamburger">
+            <button id="navlink" name="toggle" type="button">
                 <i class="fa-solid fa-bars"></i>   
             </button>
         </nav>
@@ -226,6 +199,6 @@
  
  
 
-         <script src="swiper-bundle.min.js"></script>
+
  </body>
          </html>

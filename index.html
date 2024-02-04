@@ -13,24 +13,23 @@
 </head>
 <body>
     <header class="header lg:min-h-screen " id="header">
-        <nav class="navbar">
-            <div class="brand"><a href=""><img src="/assets/logo.png" class="rounded-lg "></a></div>
-            <div id="nav__links" class="nav__links hidden" >
-                <a href="">Home</a>
+        <nav class="navbar items-center sm:h-20">
+            <div id="brand" class="brand"><a href=""><img src="/assets/logo.png" class="rounded-lg "></a></div>
+            <div id="nav__links" class="nav__links hidden max-sm:mx-auto py-6 sm:flex" >
+                <a href="" class="text-center">Home</a>
                 <a href="#Project" >Project</a>
                 <a href="" >Service</a>
                 <a href="" >Shop</a>
             </div>
             
-            <div class="navbar--right ">
-             <div id=nav__links class="nav__links hidden">
-                <a href="A" class="">Login</a>
-                <a href="" class="border py-2 hover:bg-[var(--secColor)]">SignUp</a>
+            <div id="nav__right" class="navbar--right nav__links hidden sm:flex">
+                    <a href="A" class="">Login</a>
+                    <a href="" class="border rounded-lg py-2 hover:bg-[var(--secColor)]">SignUp</a>              
             </div>
-             </div>
+
 
         <nav class="navbar--right flex sm:hidden">
-            <button id="hamburger" name="hamburger" type="button" class="block right-4 ">
+            <button id="hamburger" name="hamburger" type="button" class="rounded-lg">
                 <span class="hamburger-line transition duration-300 ease-out origin-top-left"></span>
                 <span class="hamburger-line transition duration-300 ease-out"></span>
                 <span class="hamburger-line transition duration-300 ease-out origin-bottom-left"></span>

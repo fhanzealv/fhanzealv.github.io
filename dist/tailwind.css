@@ -602,10 +602,6 @@ video {
   right: 0.5rem;
 }
 
-.right-4 {
-  right: 1rem;
-}
-
 .-z-40 {
   z-index: -40;
 }
@@ -625,10 +621,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.block {
-  display: block;
 }
 
 .inline-block {
@@ -659,10 +651,6 @@ video {
   min-height: 100%;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .origin-bottom-left {
   transform-origin: bottom left;
 }
@@ -677,6 +665,10 @@ video {
 
 .resize {
   resize: both;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .gap-3 {
@@ -725,6 +717,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-9 {
@@ -867,13 +864,24 @@ section{
   padding-right: 1rem;
 }
 
+.brand-active img {
+  --tw-scale-x: 0;
+  --tw-scale-y: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .navbar--right {
   margin-left: auto;
 }
 
 .nav__links a {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -903,8 +911,8 @@ section{
   width: 100%;
   align-items: center;
   background-color: var(--mainColor);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -1394,6 +1402,10 @@ section{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.nav__links-active {
+  display:none;
+}
+
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
@@ -1472,14 +1484,23 @@ section{
 }
 
 @media not all and (min-width: 640px) {
-  .max-sm\:hidden {
-    display: none;
+  .max-sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:h-20 {
+    height: 5rem;
   }
 }
 

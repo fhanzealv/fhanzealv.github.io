@@ -843,6 +843,12 @@ section{
   margin-left: auto;
 }
 
+@media not all and (min-width: 640px) {
+  .nav__links {
+    display: none;
+  }
+}
+
 .nav__links a {
   padding-left: 1rem;
   padding-right: 1rem;

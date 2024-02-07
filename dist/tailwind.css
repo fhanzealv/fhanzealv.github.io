@@ -876,6 +876,10 @@ section{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.nav__links a:hover {
+  color: var(--secColor);
+}
+
 .f-btn {
   border-radius: 0.375rem;
   padding-top: 0.5rem;
@@ -1462,6 +1466,11 @@ section{
 
 .hover\:bg-\[var\(--secColor\)\]:hover {
   background-color: var(--secColor);
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1024px) {
